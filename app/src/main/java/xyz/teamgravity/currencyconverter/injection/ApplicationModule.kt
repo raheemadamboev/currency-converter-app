@@ -7,6 +7,7 @@ import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import xyz.teamgravity.currencyconverter.api.CurrencyApi
+import xyz.teamgravity.currencyconverter.viewmodel.CurrencyRepository
 import javax.inject.Singleton
 
 private const val BASE_URL = "https://api.exchangeratesapi.io"
@@ -20,4 +21,7 @@ object ApplicationModule {
     fun provideCurrencyApi(): CurrencyApi = Retrofit.Builder().baseUrl(BASE_URL)
         .addConverterFactory(GsonConverterFactory.create())
         .build().create(CurrencyApi::class.java)
+
+    @Provides
+    fun provideMainRepository(api: CurrencyApi) = CurrencyRepository(api)
 }
