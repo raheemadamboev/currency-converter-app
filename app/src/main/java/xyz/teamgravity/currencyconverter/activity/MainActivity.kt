@@ -1,4 +1,4 @@
-package xyz.teamgravity.currencyconverter
+package xyz.teamgravity.currencyconverter.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
