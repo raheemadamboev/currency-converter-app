@@ -1,5 +1,5 @@
 # currency-converter-app
-Simple currency converter app
+Simple currency converter app 
 
 **Currency Converter**
 
