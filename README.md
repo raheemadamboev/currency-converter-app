@@ -5,15 +5,13 @@ Simple currency converter app
 
 <a href="https://github.com/raheemadamboev/currency-converter-app/blob/master/app-debug.apk">Demo app</a>
 
-<img src="https://i.imgur.com/VwscSdq.png" alt="Italian Trulli" width="200" height="200">
-
 This app is simple app to convert currency. Exchange rate free <a href="https://exchangeratesapi.io/">API</a> is used.
 
 **Screenshots:**
 
 <img src="https://i.imgur.com/ru18awj.jpg" alt="Italian Trulli" width="200" height="434"> <img src="https://i.imgur.com/urTDMd2.jpg" alt="Italian Trulli" width="200" height="434">
 
-**Key points:**
+**Tech stack:**
 
 - MVVM
 - Dependency Injection (Hilt)
